@@ -1,0 +1,22 @@
+
+#inputEmail, #inputPhone, #inputMessage {
+    margin-bottom: 4%;
+}
+
+#imgContact {
+    height: 140px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#formContact{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width:1000px) {
+    #formContact{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}

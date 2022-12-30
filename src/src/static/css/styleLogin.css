@@ -1,0 +1,43 @@
+body {
+    background:linear-gradient(to right, rgb(101, 101, 192), rgb(107, 228, 189));   
+}
+
+#imagenLogin {
+    height: 140px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#inputEmail, #inputPassword {
+    margin-bottom: 4%;
+}
+
+#btnLogin{
+    margin-top: 2%;
+}
+
+#formLogin{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width:1000px) {
+    #formLogin{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #formLogin{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #formLogin{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}

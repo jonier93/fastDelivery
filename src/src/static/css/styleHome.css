@@ -1,0 +1,79 @@
+p {
+    text-align: justify;
+    margin:2% 5% 2% 5%;
+    font-size: 20px;    
+}
+
+#imgIcono {
+    height: 70px;
+    margin-right: 4%;
+}
+
+#blockIcono{   
+    text-align: right;
+}
+
+#titleHome {
+    margin-top: -3%;
+}
+
+#imgHome {
+    height: 420px;
+    width: 720px;
+}
+#video{
+    margin-bottom: 3%; 
+}
+#imgGif{
+    margin-left: 25%;  
+    margin-bottom: 3%; 
+    border-radius: 50%;
+}
+
+@media screen and (min-width:1800px) {
+    #imgHome {height: 490px; width: 880px;}
+    #imgGif {height: 420px; width: 520px;}
+    #video {height: 600px; width: 900px;}    
+}
+
+@media screen and (max-width:1800px) {
+    #imgHome {height: 440px; width: 780px;}
+    #imgGif {height: 380px; width: 480px;}
+    #video {height: 550px; width: 800px;}    
+}
+
+@media screen and (max-width:1600px) {
+    #imgHome {height: 380px; width: 680px;}
+    #imgGif {height: 280px; width: 380px;}
+    #video {height: 450px; width: 700px;}    
+}
+
+@media screen and (max-width:1400px) {
+    #imgHome {height: 320px; width: 580px;}
+    #imgGif {height: 250px; width: 330px;}
+    #video {height: 420px; width: 650px;}    
+}
+
+@media screen and (max-width:1200px) {
+    #imgHome {height: 270px; width: 480px;}
+    #imgGif {height: 200px; width: 270px;}
+    #video {height: 380px; width: 570px;}    
+}
+
+@media screen and (max-width:1000px) {
+    #imgHome {height: 210px; width: 380px;}
+    #imgGif {height: 170px; width: 220px;}
+    #video {height: 330px; width: 460px;}
+}
+
+@media screen and (max-width:800px) {
+    #imgHome  {height: 160px; width: 280px;}
+    #imgGif {height: 120px; width: 160px;}
+    #video {height: 200px; width: 330px;}
+}
+
+@media screen and (max-width:600px) {
+    #imgHome  {height: 100px; width: 180px;}
+    #imgGif {height: 100px; width: 140px;}
+    #video {height: 170px; width: 270px;}
+}

@@ -1,0 +1,44 @@
+
+#imgRegister {
+    height: 140px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+#inputName, #inputUser, #inputEmail2{
+    margin-bottom: 2%;
+}
+
+#blockSmall {
+    margin-bottom: 1%;
+}
+
+#btnRegistrar {
+    margin-top: 2%;
+}
+
+#formRegister{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media screen and (max-width:1000px) {
+    #formRegister{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #formRegister{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #formRegister{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
