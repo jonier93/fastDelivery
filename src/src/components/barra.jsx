@@ -51,10 +51,10 @@ function signOff(){
 }
 
 function logear() {
-  if(localStorage["email"] == "") {
+  if(localStorage["email"] == "" || localStorage["email"] == undefined ) {
     window.location.href="/login"
   }
-  else {
+  else {    
     window.location.href="/listOrder"
   }
   

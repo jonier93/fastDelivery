@@ -21,7 +21,7 @@ export function update(){
             alert("Error con credenciales")
         }          
       }) 
-      .catch(err => alert("Error" + err)) 
+      .catch(err => alert("Error con credenciales")) 
     }) 
 }
 
